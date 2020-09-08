@@ -1,0 +1,78 @@
+Begin Object Class=/Script/Engine.Material Name="NewMaterial"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant4Vector Name="MaterialExpressionConstant4Vector_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_2"
+      DefaultValue=15.000000
+      ParameterName="B"
+      ExpressionGUID=6C4D6F2E4FA0C8F47935C0B1277AA85E
+      MaterialExpressionEditorX=592
+      MaterialExpressionEditorY=480
+      MaterialExpressionGuid=6280AF3947E50F5A53C35EB5F64CD50C
+      Material=Material'"NewMaterial"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_1"
+      DefaultValue=0.500000
+      ParameterName="Roughness"
+      ExpressionGUID=F3B75AF3407FC82D1DE537B4D6AB225F
+      MaterialExpressionEditorX=784
+      MaterialExpressionEditorY=288
+      MaterialExpressionGuid=B80755E44B9FE977ED129181E6E6C9E4
+      Material=Material'"NewMaterial"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_0"
+      DefaultValue=1.000000
+      ParameterName="Metallic"
+      ExpressionGUID=9B991E184524EA95E53FA5B945AF738C
+      MaterialExpressionEditorX=800
+      MaterialExpressionEditorY=208
+      MaterialExpressionGuid=2E87630D495B47FA6F729E8426BE35BF
+      Material=Material'"NewMaterial"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_0"
+      A=(Expression=MaterialExpressionConstant4Vector'"NewMaterial:MaterialExpressionConstant4Vector_0"')
+      B=(Expression=MaterialExpressionScalarParameter'"NewMaterial:MaterialExpressionScalarParameter_2"')
+      MaterialExpressionEditorX=768
+      MaterialExpressionEditorY=416
+      MaterialExpressionGuid=ECBE8F9D4A1F12A9BB93BC925A124368
+      Material=Material'"NewMaterial"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant4Vector_0"
+      Constant=(R=0.400608,G=0.684316,B=0.739583,A=0.665000)
+      MaterialExpressionEditorX=576
+      MaterialExpressionEditorY=112
+      MaterialExpressionGuid=527538DD414966B1DFEBCA9B59879D31
+      Material=Material'"NewMaterial"'
+   End Object
+   BaseColor=(Expression=MaterialExpressionConstant4Vector'"MaterialExpressionConstant4Vector_0"')
+   Metallic=(Expression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_0"')
+   Roughness=(Expression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_1"')
+   EmissiveColor=(Expression=MaterialExpressionMultiply'"MaterialExpressionMultiply_0"')
+   EditorX=1184
+   EditorY=112
+   Expressions(0)=MaterialExpressionConstant4Vector'"MaterialExpressionConstant4Vector_0"'
+   Expressions(1)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_0"'
+   Expressions(2)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_1"'
+   Expressions(3)=MaterialExpressionMultiply'"MaterialExpressionMultiply_0"'
+   Expressions(4)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_2"'
+   ParameterGroupData(0)=(GroupName="None")
+   ParameterGroupData(1)=(GroupName="None")
+   ParameterGroupData(2)=(GroupName="None")
+   bCanMaskedBeAssumedOpaque=True
+   StateId=B95A0E874C963D8367B16EB9B98C2B04
+   CachedExpressionData=(Parameters=(Entries[0]=(NameHashes=(440574345582452634,3078550227877033723,17945335288772587736),ParameterInfos=((Name="Roughness"),(Name="Metallic"),(Name="B")),ExpressionGuids=(F3B75AF3407FC82D1DE537B4D6AB225F,9B991E184524EA95E53FA5B945AF738C,6C4D6F2E4FA0C8F47935C0B1277AA85E),Overrides=(False,False,False)),ScalarValues=(0.500000,1.000000,15.000000),ScalarMinMaxValues=((X=0.000000,Y=0.000000),(X=0.000000,Y=0.000000),(X=0.000000,Y=0.000000)),ScalarCurveValues=(None,None,None),ScalarCurveAtlasValues=(None,None,None)),QualityLevelsUsed=(False,True,False))
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   ParameterOverviewExpansion=(("-12None", True))
+   LightingGuid=99BC12CF43C97142F47AAD9DA57D1DDF
+End Object
